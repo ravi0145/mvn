@@ -1,0 +1,35 @@
+2023-08-26 11:20:12.553 |-INFO  [main] com.roncoo.example.SpringBootDemo161ApplicationTests [48] -| Starting SpringBootDemo161ApplicationTests on ravi with PID 9156 (started by root in /root/sp_11_to_27/SP12)
+2023-08-26 11:20:12.575 |-INFO  [main] com.roncoo.example.SpringBootDemo161ApplicationTests [663] -| The following profiles are active: test
+2023-08-26 11:20:12.814 |-INFO  [main] org.springframework.web.context.support.GenericWebApplicationContext [581] -| Refreshing org.springframework.web.context.support.GenericWebApplicationContext@49b2a47d: startup date [Sat Aug 26 11:20:12 IST 2023]; root of context hierarchy
+2023-08-26 11:20:14.808 |-INFO  [background-preinit] org.hibernate.validator.internal.util.Version [30] -| HV000001: Hibernate Validator 5.2.4.Final
+2023-08-26 11:20:18.669 |-INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [328] -| Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$351191f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-26 11:20:20.908 |-INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [334] -| Building JPA container EntityManagerFactory for persistence unit 'default'
+2023-08-26 11:20:21.001 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper [31] -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-08-26 11:20:21.339 |-INFO  [main] org.hibernate.Version [37] -| HHH000412: Hibernate Core {5.0.9.Final}
+2023-08-26 11:20:21.342 |-INFO  [main] org.hibernate.cfg.Environment [213] -| HHH000206: hibernate.properties not found
+2023-08-26 11:20:21.359 |-INFO  [main] org.hibernate.cfg.Environment [317] -| HHH000021: Bytecode provider name : javassist
+2023-08-26 11:20:21.567 |-INFO  [main] org.hibernate.annotations.common.Version [66] -| HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-08-26 11:20:22.045 |-INFO  [main] org.hibernate.dialect.Dialect [156] -| HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-26 11:20:24.105 |-INFO  [main] org.hibernate.tool.hbm2ddl.SchemaExport [400] -| HHH000227: Running hbm2ddl schema export
+2023-08-26 11:20:24.150 |-INFO  [main] org.hibernate.tool.hbm2ddl.SchemaExport [464] -| HHH000230: Schema export complete
+2023-08-26 11:20:24.322 |-INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [382] -| Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-26 11:20:25.729 |-INFO  [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] -| HHH000397: Using ASTQueryTranslatorFactory
+2023-08-26 11:20:28.441 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] -| Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@49b2a47d: startup date [Sat Aug 26 11:20:12 IST 2023]; root of context hierarchy
+2023-08-26 11:20:28.798 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/api/get],methods=[POST]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> com.roncoo.example.controller.ApiController.get(java.lang.String)
+2023-08-26 11:20:28.803 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/file/upload]}" onto public java.lang.String com.roncoo.example.controller.FileController.upload(org.springframework.web.multipart.MultipartFile)
+2023-08-26 11:20:28.805 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/web/index]}" onto public java.lang.String com.roncoo.example.controller.WebController.index(org.springframework.ui.ModelMap)
+2023-08-26 11:20:28.806 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/web/error]}" onto public java.lang.String com.roncoo.example.controller.WebController.error(org.springframework.ui.ModelMap)
+2023-08-26 11:20:28.823 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-08-26 11:20:28.823 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-08-26 11:20:28.924 |-INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] -| Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-08-26 11:20:28.936 |-INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] -| Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-08-26 11:20:28.988 |-INFO  [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [269] -| Detected @ExceptionHandler methods in bizExcepiton
+2023-08-26 11:20:29.088 |-INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] -| Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-08-26 11:20:29.848 |-INFO  [main] org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer [127] -| ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2023-08-26 11:20:30.425 |-INFO  [main] com.roncoo.example.SpringBootDemo161ApplicationTests [57] -| Started SpringBootDemo161ApplicationTests in 34.535 seconds (JVM running for 37.255)
+2023-08-26 11:20:42.267 |-INFO  [Thread-3] org.springframework.web.context.support.GenericWebApplicationContext [982] -| Closing org.springframework.web.context.support.GenericWebApplicationContext@49b2a47d: startup date [Sat Aug 26 11:20:12 IST 2023]; root of context hierarchy
+2023-08-26 11:20:42.295 |-INFO  [Thread-3] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [551] -| Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-26 11:20:42.295 |-INFO  [Thread-3] org.hibernate.tool.hbm2ddl.SchemaExport [400] -| HHH000227: Running hbm2ddl schema export
+2023-08-26 11:20:42.346 |-INFO  [Thread-3] org.hibernate.tool.hbm2ddl.SchemaExport [464] -| HHH000230: Schema export complete

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.roncoo.example.SpringBootDemo161ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 46.271 sec <<< FAILURE! - in com.roncoo.example.SpringBootDemo161ApplicationTests
+getForObject(com.roncoo.example.SpringBootDemo161ApplicationTests)  Time elapsed: 11.397 sec  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://www.roncoo.com": Connect to 43.255.104.179:8080 [/43.255.104.179] failed: connect timed out; nested exception is org.apache.http.conn.ConnectTimeoutException: Connect to 43.255.104.179:8080 [/43.255.104.179] failed: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:91)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:619)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:287)
+	at com.roncoo.example.SpringBootDemo161ApplicationTests.getForObject(SpringBootDemo161ApplicationTests.java:44)
+

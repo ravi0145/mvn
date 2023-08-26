@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.roncoo.example.SpringBootDemo161ApplicationTests" time="11.397" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.382-b05"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/root/sp_11_to_27/SP12"/>
+    <property name="java.runtime.version" value="1.8.0_382-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.10.0-1160.95.1.el7.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_382"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.el7_9.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Red%20Hat%20Enterprise%20Linux%207&amp;component=java-1.8.0-openjdk"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="getForObject" classname="com.roncoo.example.SpringBootDemo161ApplicationTests" time="11.397">
+    <error message="I/O error on GET request for &quot;http://www.roncoo.com&quot;: Connect to 43.255.104.179:8080 [/43.255.104.179] failed: connect timed out; nested exception is org.apache.http.conn.ConnectTimeoutException: Connect to 43.255.104.179:8080 [/43.255.104.179] failed: connect timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://www.roncoo.com": Connect to 43.255.104.179:8080 [/43.255.104.179] failed: connect timed out; nested exception is org.apache.http.conn.ConnectTimeoutException: Connect to 43.255.104.179:8080 [/43.255.104.179] failed: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:91)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:619)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:287)
+	at com.roncoo.example.SpringBootDemo161ApplicationTests.getForObject(SpringBootDemo161ApplicationTests.java:44)
+</error>
+    <system-out><![CDATA[11:19:54.557 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:54.635 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:19:54.667 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:19:54.772 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.roncoo.example.SpringBootDemo161ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:19:54.832 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.roncoo.example.SpringBootDemo161ApplicationTests], using SpringBootContextLoader
+11:19:54.851 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: class path resource [com/roncoo/example/SpringBootDemo161ApplicationTests-context.xml] does not exist
+11:19:54.852 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: class path resource [com/roncoo/example/SpringBootDemo161ApplicationTestsContext.groovy] does not exist
+11:19:54.852 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:19:54.856 [main] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.roncoo.example.SpringBootDemo161ApplicationTests$ProxyCustomizer]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+11:19:54.857 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: SpringBootDemo161ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:19:55.012 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.219 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:19:55.221 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:19:55.221 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:19:55.256 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/roncoo/example/] to resources [URL [file:/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example/], URL [file:/root/sp_11_to_27/SP12/target/classes/com/roncoo/example/]]
+11:19:55.257 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example]
+11:19:55.257 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example] for files matching pattern [/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example/*.class]
+11:19:55.263 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/root/sp_11_to_27/SP12/target/classes/com/roncoo/example]
+11:19:55.263 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/root/sp_11_to_27/SP12/target/classes/com/roncoo/example] for files matching pattern [/root/sp_11_to_27/SP12/target/classes/com/roncoo/example/*.class]
+11:19:55.273 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/roncoo/example/*.class] to resources [file [/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example/SpringBootDemo161ApplicationTests$ProxyCustomizer$1.class], file [/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example/SpringBootDemo161ApplicationTests$ProxyCustomizer.class], file [/root/sp_11_to_27/SP12/target/test-classes/com/roncoo/example/SpringBootDemo161ApplicationTests.class], file [/root/sp_11_to_27/SP12/target/classes/com/roncoo/example/SpringBootDemo161Application.class]]
+11:19:55.497 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/root/sp_11_to_27/SP12/target/classes/com/roncoo/example/SpringBootDemo161Application.class]
+11:19:55.498 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.roncoo.example.SpringBootDemo161Application for test class com.roncoo.example.SpringBootDemo161ApplicationTests
+11:19:55.520 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.roncoo.example.SpringBootDemo161ApplicationTests]: using defaults.
+11:19:55.527 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:19:55.633 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b53e23f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@64d2d351, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@1b68b9a4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4f9a3314, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3b2c72c2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@491666ad, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@176d53b2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@971d0d8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51931956, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2b4a2ec7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@564718df]
+11:19:55.638 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.639 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.642 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.643 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:19:55.643 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:19:55.644 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.roncoo.example.SpringBootDemo161ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:19:55.663 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.roncoo.example.SpringBootDemo161ApplicationTests], using SpringBootContextLoader
+11:19:55.664 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: class path resource [com/roncoo/example/SpringBootDemo161ApplicationTests-context.xml] does not exist
+11:19:55.664 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: class path resource [com/roncoo/example/SpringBootDemo161ApplicationTestsContext.groovy] does not exist
+11:19:55.664 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:19:55.665 [main] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.roncoo.example.SpringBootDemo161ApplicationTests$ProxyCustomizer]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+11:19:55.665 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]: SpringBootDemo161ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:19:55.689 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.690 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:19:55.690 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:19:55.691 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:19:55.691 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.roncoo.example.SpringBootDemo161Application for test class com.roncoo.example.SpringBootDemo161ApplicationTests
+11:19:55.695 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.roncoo.example.SpringBootDemo161ApplicationTests]: using defaults.
+11:19:55.715 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:19:55.716 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@123f1134, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d68ef40, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@5b0abc94, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@75c072cb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f1c7bf6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@25b485ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b546384, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d740a0f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@214b199c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@20d3d15a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2893de87]
+11:19:55.716 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.716 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.717 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.717 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.736 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@161b062a testClass = SpringBootDemo161ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@17c1bced testClass = SpringBootDemo161ApplicationTests, locations = '{}', classes = '{class com.roncoo.example.SpringBootDemo161Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@78c03f1f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5383967b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+11:19:55.737 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.737 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.roncoo.example.SpringBootDemo161ApplicationTests]
+11:19:55.850 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:19:55.850 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:19:55.850 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:19:55.852 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+11:19:55.852 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.0.RELEASE)
+
+www.roncoo.com
+]]></system-out>
+  </testcase>
+</testsuite>
